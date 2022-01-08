@@ -60,6 +60,8 @@ body{
 }
 
 #timer-second{
+    position: relative;
+    right: -12%;
     margin-top : 0px;
     margin-bottom : 0px;
     font-size: 10rem;
@@ -68,8 +70,27 @@ body{
     font-weight: 900;
     color: #DA0463;
     text-shadow: 3px 0 #DBEDF3;
+    display: inline-block;
 }
 
+#liveScore{
+    position: relative;
+    left: 25%;
+    margin-top: 3%;
+    display: inline-block;
+    font-size: 5rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #FABB51;
+    text-shadow: 3px 0 white;
+    display: inline-block;
+    background-color: #548CFF;
+    border: #DBEDF3 solid;
+    border-radius: 10%;
+    padding: 1%;
+    margin-bottom: 3%;
+}
 #question-text{
     margin-top : 0px;
     margin-bottom : 0px;

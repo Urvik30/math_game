@@ -3,6 +3,7 @@ let score = 0;
 let questionPlace = document.getElementById("question-text");
 let timer = document.getElementById("timer-second");
 let answerInput = document.getElementById("answerInput");
+let update = document.getElementById("liveScore");
 let answer ;
 
 
@@ -13,6 +14,12 @@ timerFunction();
 document.getElementById("nextBtn").addEventListener("click" , function(){
     generateQuestion();
 });
+
+function updateScore(val){
+    let Upd = "Score : ";
+    Upd += val;
+    update.innerText = Upd; 
+}
 
 function timerFunction(){
     if(currentTime == 0){
@@ -85,15 +92,18 @@ function checkAnswer(data){
         console.log(userAnswer);
         if(userAnswer == answer){
             score+=3;
+            updateScore(score);
             console.log("correct");
             generateQuestion();
         }
         else{
             score--;
+            updateScore(score);
             console.log("In-correct");
         }
     }
     else if(data.key == " "){
+        answerInput.value = "";
         generateQuestion();
     }
 }
