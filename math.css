@@ -1,0 +1,162 @@
+body{
+    background-image: url("math-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    text-align: center;
+}
+
+#title{
+    outline: none;
+    font-size: 10rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    margin-bottom: 0;
+}
+
+#play{
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+#question{
+    margin: auto;
+    background-color: #FABB51;
+    width: 90%;
+    border: #DBEDF3 solid;
+    border-radius: 10%;
+    margin-top: 0;
+}
+
+
+#answer-text{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    font-size: 6rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #7900FF;
+    text-shadow: 3px 0 #DBEDF3;
+}
+
+#answerInput{
+    position: relative;
+    top: -50px;
+    left: 100px;
+    height: 100px;
+    width: 15%;
+    margin-top: 0;
+    padding-top: 0;
+    vertical-align: center;
+    border-radius: 10%;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #876445;
+    text-shadow: 3px 0 #DA0463;
+}
+
+#timer-second{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    font-size: 10rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+}
+
+#question-text{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    font-size: 6rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #3E8E7E;
+    text-shadow: 3px 0 #DA0463;
+}
+
+#nextBtn{
+    position: relative;
+    left: 500px;
+    height: 150px;
+    width: 150px;
+}
+
+.game-over , .rules{
+    margin: auto;
+    margin-top: 100px;
+    background-color: #FABB51;
+    width: 50%;
+    height: 400px;
+    border: #DBEDF3 solid;
+    border-radius: 10%;
+}
+
+.rules{
+    text-align: left;
+    padding: 10px;
+    height: auto;
+    margin-top: 50px;
+}
+
+#rule{
+    font-size: 6rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #557C55;
+    text-shadow: 3px 0 #DA0463;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li{
+    font-size: 1.8rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #F05454;
+    text-shadow: 1px 0 #3E8E7E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#game-over-text{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    font-size: 6rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #3E8E7E;
+    text-shadow: 3px 0 #DA0463;
+}
+
+#scoreCard{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    font-size: 8rem;
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #548CFF;
+    text-shadow: 3px 0 #DA0463;
+}
+
+button{
+    background-color: #A68DAD;
+    height: 80px;
+    width: 280px;
+    margin: 20px;
+    border-radius: 10%;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #DBEDF3;
+    text-shadow: 3px 0 #DA0463;
+}
