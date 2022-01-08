@@ -160,3 +160,11 @@ button{
     color: #DBEDF3;
     text-shadow: 3px 0 #DA0463;
 }
+
+#footer{
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #9B0000;
+    text-shadow: 1px 0 #3E8E7E;
+}
